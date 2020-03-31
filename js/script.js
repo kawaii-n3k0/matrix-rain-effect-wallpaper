@@ -40,7 +40,7 @@ function draw() {
     }
 }
 
-window.addEventListener("resize", function() {
+window.addEventListener("resize", () -> {
     c.height = this.window.innerHeight;
     c.width = this.window.innerWidth;
 });
